@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+
+<body>
+<div class="Login">
+<section>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" placeholder="Digite seu nome" id="nome"/>
+    </form>
+</section>
+</div>
+</body>
