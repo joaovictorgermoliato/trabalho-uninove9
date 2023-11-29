@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.links{
+    background: rgb(3, 3, 105);
+    display: flex;
+}
+.logo{
+    font-size: 35px;
+    color: #fff;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 320px;
+}
+svg{
+    margin-bottom: -13px;
+    margin-left: -32px;
+}
+.container{
+    background: url(imagens/Papelparede.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    padding: 320px;
+}
+.bev{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 150px;
+    margin: -40px;
+}
+p{
+    font-size: 35px;
+    margin: auto;
+    padding: 20px;
+}
+.doacao{
+    background: rgb(185, 185, 219);
+}
+.doacao h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;   
+}
+.cor{
+    max-width: 100%;
+    height: 50px;
+    background: rgb(182, 182, 214);
+}
+.box{
+    display: flex;
+    background: rgb(185, 185, 219); 
+}
+.QR img{
+    margin: 60px;
+    border: 3px purple solid;
+    border-radius: 20px;
+}
+.card{
+    border-radius: 15px;
+    border: 3px solid purple;
+    overflow: hidden;
+    margin: 50px;
+    background: #fff;
+}
+.card p{
+    font-size: 25px;
+}
+footer{
+    background: rgb(112, 112, 163);
+    text-align: center;
+    line-height: 50px;
+}
+footer p{
+    font-size: 30px;
+}
+#copy{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    a {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .container {
+        padding: 120px; /* Ajuste o padding conforme necessário */
+    }
+    .bev {
+        font-size: 40px;
+        padding-left: 50px;
+        margin: -20px;
+    }
+    p {
+        font-size: 25px;
+        padding: 10px;
+    }
+    .QR img {
+        margin: 30px;
+    }
+    .card {
+        margin: 30px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    a {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .container {
+        padding: 80px; /* Ajuste o padding conforme necessário */
+    }
+    .bev {
+        font-size: 30px;
+        padding-left: 30px;
+        margin: -10px;
+    }
+    p {
+        font-size: 20px;
+        padding: 5px;
+    }
+    .QR img {
+        margin: 20px;
+    }    .card {
+        margin: 20px;
+    }
+}

@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.links{
+    background: rgb(3, 3, 105);
+    display: flex;
+}
+.logo{
+    font-size: 35px;
+    color: #fff;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 320px;
+}
+svg{
+    margin-bottom: -13px;
+    margin-left: -32px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.container{
+    background: url(imagens/Papelparede.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    padding: 320px;
+}
+.bev{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 150px;
+    margin: -40px;
+}
+p{
+    font-size: 35px;
+    margin: auto;
+    padding: 20px;
+}
+.redesS{
+    background: rgba(151, 210, 250, 0.50);
+}
+.sociais{
+    display: flex;
+}
+.enunciado{
+    font-size: 50px;
+    font: bold;
+    text-align: center;
+}
+.tcor{
+    max-width: 100%;
+    height: 100px;
+    background: rgba(151, 210, 250, 0.50);
+}
+.angela{
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+    margin: 50px;
+}
+.wpp, .insta{
+    width: 100px;
+    height: 100px;
+}
+.lk{
+    padding: 0px;
+    margin: 80px;
+}
+.devs{
+    display: flex;
+    background: rgba(151, 210, 250, 0.50);
+    gap: 225px;
+}
+.card{
+    max-width: 250px;
+    border-radius: 15px;
+    border: 3px solid black;
+    overflow: hidden;
+    margin: 15px;
+    background: rgba(151, 210, 250, 0.50);
+}
+.card1{
+    max-width: 250px;
+    border-radius: 15px;
+    border: 3px solid black;
+    overflow: hidden;
+    margin: 15px;
+    background: rgba(151, 210, 250, 0.50);
+    margin-left: 775px;
+}
+.devs p{
+    font-size: 25px;
+    text-align: center;
+}
+.imglk{
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
+footer{
+    background: rgb(112, 112, 163);
+    text-align: center;
+    line-height: 50px;
+}
+footer p{
+    font-size: 30px;
+}
+#copy{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    a {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .container {
+        padding: 80px;
+    }
+    .bev {
+        font-size: 40px;
+        padding-left: 50px;
+        margin: -20px;
+    }
+    p {
+        font-size: 25px;
+        padding: 10px;
+    }
+    .card {
+        max-width: 200px;
+        margin: 20px;
+    }
+    .card1 {
+        width: 250px;
+        height: 200px;
+    }
+    .imgimp {
+        width: 300px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    a {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .container {
+        padding: 50px;
+    }
+    .bev {
+        font-size: 30px;
+        padding-left: 30px;
+        margin: -10px;
+    }
+    p {
+        font-size: 20px;
+        padding: 5px;
+    }
+    .card {
+        max-width: 150px;
+        margin: 10px;
+    }
+    .card1 {
+        width: 180px;
+        height: 150px;
+    }
+    .imgimp {
+        width: 200px;
+        height: 300px;
+    }
+}
